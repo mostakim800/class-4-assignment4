@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+}
+
+.icon-area ul{
+    list-style: none;
+}
+
+.icon-area ul li{
+    display: inline-block;
+}
+
+.icon-area ul li a{
+    background: red;
+    color: #fff;
+    padding: 30px 40px;
+    display: block;
+    font-size: 40px;
+}
+
+.icon-area ul li a:hover{
+    background: indigo;
+    color: black;
+    border-radius: 40%;
+}
+
+    .icon-area ul li a fab fa-youtube{
+        background: brown;
+    }
